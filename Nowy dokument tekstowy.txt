@@ -1,0 +1,7 @@
+clean:
+	rm jre -r
+run:
+	jre/bin/java.exe --module org.openjfx/org.openjfx.Main
+# D:\inf\java\javafx-jmods-11.0.2
+jlink:
+	jlink --module-path "%PATH_TO_FX_MODS%;%JAVA_HOME%\jmods;bin" --add-modules org.openjfx --output jre --launcher launch=org.openjfx/org.openjfx.Main

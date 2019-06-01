@@ -1,4 +1,4 @@
-module calc {
+module org.openjfx {
 	requires javafx.controls;
 	requires javafx.fxml;
 	requires transitive javafx.graphics;
