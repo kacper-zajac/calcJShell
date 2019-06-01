@@ -1,0 +1,22 @@
+.root {
+    -fx-base: rgb(90, 121, 133);
+    -fx-accent: #6ff700;
+    -fx-default-button: #0005ff;
+    -fx-focus-color: #0009ff;
+    -fx-faint-focus-color: #fbfffd;
+    -fx-focused-text-base-color : ladder(
+            -fx-selection-bar,
+            -fx-light-text-color 45%,
+            -fx-dark-text-color 46%,
+            -fx-dark-text-color 59%,
+            -fx-mid-text-color 60%
+    );
+}
+
+#button_equals{
+    -fx-base: rgb(125, 168, 181);
+    -fx-accent: #6ff700;
+    -fx-default-button: #0005ff;
+    -fx-focus-color: #0009ff;
+    -fx-faint-focus-color: #fbfffd;
+}
